@@ -1,0 +1,33 @@
+# for i in ['a', 'b', 'c']:
+#     try:
+#         print(i**2)
+#     except:
+#         print("Those are not integers. Try again.")
+
+
+# try:
+#     x = 5
+#     y = 0
+#
+#     z = x/y
+# except:
+#     print("invalid input. Try again.")
+# finally:
+#     print("All Done!")
+
+
+# def ask():
+#     while True:
+#         try:
+#             i = int(input("Please input an integer: "))
+#             result = i**2
+#         except:
+#             print("That was not an integer. Try again!")
+#             continue
+#         else:
+#             print("Input accepted. Thank You!")
+#             print("Your number squared is:")
+#             print(result)
+#             break
+#
+# ask()
